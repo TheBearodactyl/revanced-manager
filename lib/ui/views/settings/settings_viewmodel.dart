@@ -87,13 +87,13 @@ class SettingsViewModel extends BaseViewModel {
                 _managerAPI.setPatchesChangeEnabled(true);
                 Navigator.of(context).pop();
               },
-              child: Text(t.yesButton),
+              child: Text(t.noButton),
             ),
             FilledButton(
               onPressed: () {
                 Navigator.of(context).pop();
               },
-              child: Text(t.noButton),
+              child: Text(t.yesButton),
             ),
           ],
         ),
